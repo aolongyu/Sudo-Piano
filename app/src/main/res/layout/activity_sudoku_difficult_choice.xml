@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Sudoku_Difficult_Choice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_circle_shape_02"
+            android:text="简单" />
+
+        <Button
+            android:id="@+id/btnMedium"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_circle_shape_02"
+            android:text="进阶" />
+
+        <Button
+            android:id="@+id/btnAdvanced"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_circle_shape_02"
+            android:text="困难" />
+
+        <Switch
+            android:id="@+id/swcMusic"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:switchMinWidth="20dp"
+            android:text="音乐"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track" />
+
+        <Button
+            android:id="@+id/btnHistory"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_circle_shape_02"
+            android:text="数独游戏历史记录" />
+    </LinearLayout>
+
+</LinearLayout>
